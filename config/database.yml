@@ -1,0 +1,9 @@
+development: &development
+  adapter: mysql
+  database: coupon_service_development
+  pool: 5
+  timeout: 5000
+
+test:
+  <<: *development
+  database: coupon_service_test

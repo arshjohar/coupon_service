@@ -1,0 +1,11 @@
+.DS_Store
+/.bundle
+/.idea
+/app/assets/resources
+/coverage/
+/doc/
+/log/*.log
+/rvm.env
+/tmp
+vendor/bundle/
+tags
